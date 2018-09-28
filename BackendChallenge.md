@@ -1,4 +1,4 @@
-# D&amp;B Solution Engineering Recruitment Challenge
+# D&amp;B Solution Engineering Backend Challenge
 
 Thank you for taking the time to do our technical test. It consists of two parts:
 
