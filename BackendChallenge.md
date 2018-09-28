@@ -1,4 +1,5 @@
-# Introduction
+# D&amp;B Solution Engineering Recruitment Challenge
+
 Thank you for taking the time to do our technical test. It consists of two parts:
 
 * A coding test
@@ -10,10 +11,8 @@ Please make this a single zip file named {yourname}-{role-applied-for}.zip conta
 1. A single markdown file with the answers to the technical questions
 2. One folder containing the technical test 
 
-# Coding exercise
+## Coding exercise
 As a backend engineer, you'll be working with APIs (Such as AWS's EC2 API). This test is designed to give you the opportunity to show your ability to query an API using languages that are commonly used during operations at D&B.
-
- 
 
 We are in need of a passthrough service that will provide currency conversions paired with the latest Bitcoin prices for that currency in a single response. The response needs to be formatted to match the fixer.io response formatting as our integration systems are already built to consume that response body. This service will be used for all of our customers, so we need to be able to assist them with any errors they see, thus, having the outputs logged for error management is needed.
  ##### Example fixer.io response object
@@ -64,7 +63,7 @@ GET https://blockchain.info/ticker
 }
 ```
 
-### Platform / Language Choice
+#### Platform / Language Choice
 You can create the application as either a command line application or web application in any of the following languages:
 
 * PHP
@@ -76,30 +75,30 @@ You can create the application as either a command line application or web appli
 * Ruby
 * .NET / C#
 
-### Task requirements
+#### Task requirements
 Feel free to spend as much or as little time on the exercise as you like (we wouldn't expect more than 4 hours) as long as the following requirements have been met.
 
 Please complete the user story below.
 Your code should compile and run in one step.
 Feel free to use whatever frameworks/ libraries/packages you like.
 
-### User Story
+#### User Story
 As a user running the application
 I can view a list of currencies with an appended bitcoin value in a user submitted base currency (ex. USD)
 So that I can see all of my purchasing options of global currency in a single view
 
-### Acceptance criteria
+#### Acceptance criteria
 1. For the known currency USD, results are returned
 2. All default currencies, as well as bitcoin, are displayed in a valid JSON object.
 
-### Technical Details
+#### Technical Details
 * Currency conversion: https://fixer.io/documentation {Latest Rates Endpoint}
 * Bitcoin conversion: https://blockchain.info/ticker
 * If the user submits invalid data logic, that should be handled appropriately.
 * The session information does not have to persist, it's expected the customer will submit the same request every time they wish to collect for a certain currency.
  
 
-#### Technical Questions
+## Technical Questions
 * Did you have time to complete the coding test? What would you add to your solution if you had more time?
 * What's your favourite programming language? Why?
 * List a few of your preferred frameworks (also let us know in which situations you would choose to use/not use them)
