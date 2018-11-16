@@ -16,6 +16,9 @@ Please make this a single zip file named {yourname}-{role-applied-for}.zip conta
 As a backend engineer, you'll be working with APIs (Such as AWS's EC2 API). This test is designed to give you the opportunity to show your ability to query an API using languages that are commonly used during operations at D&B.
 
 We are in need of a passthrough service that will provide currency conversions paired with the latest Bitcoin prices for that currency in a single response. The response needs to be formatted to match the fixer.io response formatting as our integration systems are already built to consume that response body. This service will be used for all of our customers, so we need to be able to assist them with any errors they see, thus, having the outputs logged for error management is needed.
+
+*Note: Fixer needs an API key which can be acquired here for free: https://fixer.io/product*
+
  ##### Example fixer.io response object
 
 ```javascript
